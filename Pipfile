@@ -9,6 +9,7 @@ djangorestframework = "*"
 djangorestframework-simplejwt = "*"
 psycopg2 = "*"
 django-filter = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
