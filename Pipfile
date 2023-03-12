@@ -11,6 +11,7 @@ psycopg2 = "*"
 django-filter = "*"
 dj-database-url = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
