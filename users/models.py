@@ -22,7 +22,6 @@ objects = CustomUserManager()
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    profile = models.ImageField(upload_to="profile", blank=True)
     balance = models.IntegerField(default=0)
 
 
